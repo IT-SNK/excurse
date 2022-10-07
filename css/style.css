@@ -7,8 +7,11 @@ body {
     
 }
 .header {
-    min-height: 1080px;
-background: url(../img/) no-repeat;
+    height: 1080px;
+    background-image:url("../img/Rectangle43.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-size: cover; */
 }
 .header__menu {
     max-width: 1200px;
