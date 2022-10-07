@@ -1,28 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    
+body{
+    font-family: 'Balqis';
 }
+
 .header {
-    height: 1080px;
-    background-image:url("../img/fon.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* background-size: cover; */
+    max-width: 100%;
+    min-height: 1080px;
+    background:url(../img/fon.jpg) no-repeat;
+    background-size: 100% ;
+   
+}
+.container{
+    
 }
 .header__menu {
     max-width: 1200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 72px;
+    margin:0 auto;
 }
 .header__list {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
 }
-.header__phone {
+.header__list a{
+    text-decoration: none;
+    margin-right: 52px;
+    color: #000000;
+}
+.header__list a:nth-child(3){
+    margin-right: 0px;
+}
+.header__phone a{
+    max-width:224px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: none;
+ 
+}
+header img {
+   margin-right: 10px;
 }
 .header__fone {
+    font-family: 'Balqis';
+font-style: normal;
+font-weight: 400;
+font-size: 250px;
+line-height: 334px;
+
+color: #000000;
 }
 .header__mintext {
 }
