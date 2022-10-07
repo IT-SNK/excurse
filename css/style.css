@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+}
+.header {
+    min-height: 1080px;
+background: url(../img/) no-repeat;
+}
+.header__menu {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__list {
+}
+.header__phone {
+}
+.header__fone {
+}
+.header__mintext {
+}
